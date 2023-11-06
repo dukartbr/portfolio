@@ -12,6 +12,7 @@ import {
   ModalCloseButton,
   useDisclosure,
 } from "@chakra-ui/react";
+import { FaLinkedin } from "react-icons/fa6";
 
 export function Header() {
   const { isOpen, onOpen, onClose } = useDisclosure();

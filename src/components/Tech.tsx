@@ -87,14 +87,14 @@ const codeLines: CodeLine[] = [
 export function Tech() {
   return (
     <Flex
-      flexDirection={["column", null, "row"]}
+      flexDirection={["column", null, null, "row"]}
       bg='black'
       px={8}
       py={8}
       width='100%'
       borderRadius={8}
     >
-      <Box width='30%' color='white'>
+      <Box width={["100%", null, null, "30%"]} color='white' mb={5}>
         <Text mb={2}>Using the power of Javascript to save the world!</Text>
         <Text mb={2}>One solution at a time</Text>
         <Text>
@@ -105,10 +105,10 @@ export function Tech() {
           talents to your team!
         </Text>
       </Box>
-      <Box width='70%' lineHeight={8} pl={8}>
+      <Box width={["100%", null, null, "70%"]} lineHeight={8} pl={8}>
         {codeLines.map(({ code, color, margin }) => {
           return (
-            <Text color={`${color}.300`} ml={margin}>
+            <Text color={`${color}.300`} ml={margin} noOfLines={1}>
               {code}
             </Text>
           );
