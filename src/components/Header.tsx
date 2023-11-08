@@ -63,7 +63,7 @@ function ContactModal({
 							<Icon as={FaLinkedin} fontSize="50px" />
 						</Link>
 						<Spacer />
-						<Link href="https://github.com/">
+						<Link href="https://github.com/dukartbr">
 							<Icon as={FaGithub} fontSize="50px" />
 						</Link>
 						<Spacer />
