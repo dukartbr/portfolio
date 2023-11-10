@@ -79,7 +79,7 @@ const codeLines: CodeLine[] = [
 	},
 	{
 		code: "}",
-		color: "orange",
+		color: "green",
 		margin: 0,
 	},
 ];
