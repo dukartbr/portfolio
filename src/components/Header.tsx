@@ -14,7 +14,7 @@ import {
 	useDisclosure,
 	Link,
 } from "@chakra-ui/react";
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 export function Header() {
 	const { isOpen, onOpen, onClose } = useDisclosure();
