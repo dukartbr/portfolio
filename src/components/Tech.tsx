@@ -53,7 +53,7 @@ const codeLines: CodeLine[] = [
 		margin: 16,
 	},
 	{
-		code: ")",
+		code: ")}",
 		color: "purple",
 		margin: 12,
 	},
