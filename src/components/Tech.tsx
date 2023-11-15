@@ -43,12 +43,12 @@ const codeLines: CodeLine[] = [
 		margin: 8,
 	},
 	{
-		code: "{solutions.map((solution, index) => (",
+		code: "{solutions.map((solution) => (",
 		color: "purple",
 		margin: 12,
 	},
 	{
-		code: "<CustomComponent key={index} solution={solution} />",
+		code: "<CustomComponent key={solution.id} solution={solution} />",
 		color: "yellow",
 		margin: 16,
 	},
