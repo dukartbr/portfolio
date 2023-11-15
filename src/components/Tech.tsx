@@ -8,7 +8,7 @@ interface CodeLine {
 
 const codeLines: CodeLine[] = [
 	{
-		code: `import { useState } from "react"`,
+		code: `import React from "react"`,
 		color: "purple",
 		margin: 0,
 	},
@@ -23,12 +23,12 @@ const codeLines: CodeLine[] = [
 		margin: 0,
 	},
 	{
-		code: "const [solutions, setSolutions] = useState([])",
+		code: "const [solutions, setSolutions] = React.useState([])",
 		color: "pink",
 		margin: 4,
 	},
 	{
-		code: "setSolutions(yourNeeds.map(need) => creativeIdeas(need, yourDesiredState))",
+		code: "setSolutions(yourNeeds.map((need) => creativeIdeas(need, yourDesiredState))",
 		color: "yellow",
 		margin: 4,
 	},
@@ -43,7 +43,7 @@ const codeLines: CodeLine[] = [
 		margin: 8,
 	},
 	{
-		code: "{solutions.map((solution, index) => {(",
+		code: "{solutions.map((solution, index) => (",
 		color: "purple",
 		margin: 12,
 	},
@@ -53,7 +53,7 @@ const codeLines: CodeLine[] = [
 		margin: 16,
 	},
 	{
-		code: "})",
+		code: ")",
 		color: "purple",
 		margin: 12,
 	},
