@@ -28,18 +28,8 @@ const codeLines: CodeLine[] = [
 		margin: 4,
 	},
 	{
-		code: "yourNeeds.map((need) => {",
-		color: "blue",
-		margin: 4,
-	},
-	{
-		code: "setSolutions([creativeIdeas(need, yourDesiredState), ...solutions])",
+		code: "setSolutions(yourNeeds.map(need) => creativeIdeas(need, yourDesiredState))",
 		color: "yellow",
-		margin: 8,
-	},
-	{
-		code: "})",
-		color: "blue",
 		margin: 4,
 	},
 	{
@@ -53,12 +43,12 @@ const codeLines: CodeLine[] = [
 		margin: 8,
 	},
 	{
-		code: "{solutions.map((solution) => {(",
+		code: "{solutions.map((solution, index) => {(",
 		color: "purple",
 		margin: 12,
 	},
 	{
-		code: "<CustomComponent solution={solution} />",
+		code: "<CustomComponent key={index} solution={solution} />",
 		color: "yellow",
 		margin: 16,
 	},
