@@ -66,10 +66,6 @@ function ContactModal({
 						<Link href="https://github.com/dukartbr">
 							<Icon as={FaGithub} fontSize="50px" />
 						</Link>
-						<Spacer />
-						<Link href="mailto: dukartbrady@gmail.com">
-							<Icon as={FaEnvelope} fontSize="50px" />
-						</Link>
 					</Flex>
 				</ModalBody>
 			</ModalContent>
