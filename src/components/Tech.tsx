@@ -13,22 +13,28 @@ const codeLines: CodeLine[] = [
 		margin: 0,
 	},
 	{
-		code: `import { AwesomeUILibrary, CustomComponent, creativeIdeas } from "brady"`,
+		code: `import { AwesomeUILibrary, CustomComponent } from "a-cool-design-system"`,
+		color: "blue",
+		margin: 0,
+	},
+	{
+		code: `import { CreativeIdeas, problemSolving } from "brady"`,
 		color: "red",
 		margin: 0,
 	},
+
 	{
 		code: `export function YourUISolution({ yourNeeds, yourDesiredState}) {`,
 		color: "green",
 		margin: 0,
 	},
 	{
-		code: "const [solutions, setSolutions] = React.useState([])",
+		code: "const [solutions, setSolutions] = React.useState<CreativeIdeas[]>([])",
 		color: "pink",
 		margin: 4,
 	},
 	{
-		code: "setSolutions(yourNeeds.map((need) => creativeIdeas(need, yourDesiredState))",
+		code: "setSolutions(yourNeeds.map((need) => problemSolving(need, yourDesiredState))",
 		color: "yellow",
 		margin: 4,
 	},
