@@ -70,7 +70,7 @@ export function Portfolio() {
 					the down time! Feel free to check them out!
 				</Text>
 			</Box>
-			<Accordion width="100%">
+			<Accordion width="100%" allowToggle>
 				{portfolioItems.map(
 					({
 						title,
