@@ -50,6 +50,12 @@ const portfolioItems: PortfolioItem[] = [
 			"My dad needed a landing page for his wheel refinishing business. This is a simple HTML/CSS site with a dash of customization and JS, I was happy to create something like this for my dad's business and would love to help you create one, as complex as you want! Check it out!",
 		image: "wheeltechbycars.png",
 	},
+	{
+		title: "Red River Ambucs",
+		url: "https://redriverambucs.org",
+		description: "",
+		image: "",
+	},
 ];
 
 export function Portfolio() {
@@ -64,7 +70,7 @@ export function Portfolio() {
 					the down time! Feel free to check them out!
 				</Text>
 			</Box>
-			<Accordion defaultIndex={[0]} width="100%">
+			<Accordion width="100%">
 				{portfolioItems.map(
 					({
 						title,
