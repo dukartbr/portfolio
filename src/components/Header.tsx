@@ -14,7 +14,7 @@ import {
 	useDisclosure,
 	Link,
 } from "@chakra-ui/react";
-import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa6";
 
 export function Header() {
 	const { isOpen, onOpen, onClose } = useDisclosure();
@@ -54,11 +54,18 @@ function ContactModal({
 				<ModalCloseButton />
 				<ModalBody>
 					<Text>
-						You can reach me or check out my work here. I look forward to
-						working with you!
+						You can reach me or check out my work here or reach me at{" "}
+						<Link href="mailto:dukartbrady@gmail.com">
+							dukartbrady@gmail.com
+						</Link>
+						. I look forward to working with you!
 					</Text>
 
 					<Flex py={8} width="100%" px={12}>
+						<Link href="mailto:dukartbrady@gmail.com">
+							<Icon as={FaEnvelope} fontSize="50px" />
+						</Link>
+						<Spacer />
 						<Link href="https://www.linkedin.com/in/bradydukart/">
 							<Icon as={FaLinkedin} fontSize="50px" />
 						</Link>

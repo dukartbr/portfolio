@@ -10,13 +10,17 @@ export function Bio() {
 			my={16}
 		>
 			{/* @ts-expect-error  - cuz */}
-			<Box boxSize="lg" h="auto" align="center" width="100%">
+			<Box boxSize="lg" h="auto" align="center" width="100%" mb={5}>
 				<Image
 					src="./images/handsomefella.png"
 					maxW={["250px", null, null, "400px"]}
 				/>
 			</Box>
-			<Box color="white" px={12} maxW={["100%", null, null, "70%"]}>
+			<Box
+				color="white"
+				px={[4, null, null, 12]}
+				maxW={["100%", null, null, "70%"]}
+			>
 				<Heading>Howdy!</Heading>
 				<Box py={5}>
 					<Text mb={3}>

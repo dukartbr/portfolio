@@ -51,7 +51,7 @@ const portfolioItems: PortfolioItem[] = [
 		image: "wheeltechbycars.png",
 	},
 	{
-		title: "Red River Ambucs",
+		title: "Red River AMBUCS",
 		url: "https://redriverambucs.org",
 		description:
 			"I was contacted by the Red River chapter of the national AMBUCS organization to make a site to help get word out about their amazing work and service. They aim to provide accessible bikes to everyone regardless of ability. This is has been a great volunteer project!",
