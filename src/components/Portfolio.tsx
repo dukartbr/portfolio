@@ -50,12 +50,13 @@ const portfolioItems: PortfolioItem[] = [
 			"My dad needed a landing page for his wheel refinishing business. This is a simple HTML/CSS site with a dash of customization and JS, I was happy to create something like this for my dad's business and would love to help you create one, as complex as you want! Check it out!",
 		image: "wheeltechbycars.png",
 	},
-	// {
-	// 	title: "Red River Ambucs",
-	// 	url: "https://redriverambucs.org",
-	// 	description: "",
-	// 	image: "",
-	// },
+	{
+		title: "Red River Ambucs",
+		url: "https://redriverambucs.org",
+		description:
+			"I was contacted by the Red River chapter of the national AMBUCS organization to make a site to help get word out about their amazing work and service. They aim to provide accessible bikes to everyone regardless of ability. This is has been a great volunteer project!",
+		image: "redriverambucs.png",
+	},
 ];
 
 export function Portfolio() {
