@@ -9,16 +9,15 @@ export function Bio() {
 			py={3}
 			my={16}
 		>
-			{/* @ts-expect-error  - cuz */}
-			<Box boxSize="lg" h="auto" align="center" width="100%" mb={5}>
+			<Flex boxSize="lg" h="auto" justifyContent="center" width="100%" mb={5}>
 				<Image
 					src="./images/handsomefella.png"
 					maxW={["250px", null, null, "400px"]}
 				/>
-			</Box>
+			</Flex>
 			<Box
 				color="white"
-				px={[4, null, null, 12]}
+				px={[0, null, null, 12]}
 				maxW={["100%", null, null, "70%"]}
 			>
 				<Heading>Howdy!</Heading>

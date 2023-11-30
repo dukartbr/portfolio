@@ -96,9 +96,9 @@ export function Tech() {
 				<Text>
 					No matter how small or big your UI/UX needs are, I'm here to help! I
 					love utilizing React and Typescript to create beautiful, seamless user
-					interfaces. From prototyping in Figma, to launching into production, I
-					have mastery in all aspects of the SDLC and cant wait to bring my
-					talents to your team!
+					interfaces. From prototyping in Figma, breaking out tasks into an
+					agile plan, write the code, testing it out, and to launching into
+					production, I'm eager to learn and help you build your application!
 				</Text>
 			</Box>
 			<Box width={["100%", null, null, "70%"]} lineHeight={8} pl={8}>
