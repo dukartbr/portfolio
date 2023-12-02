@@ -30,7 +30,7 @@ const portfolioItems: PortfolioItem[] = [
 		title: "React Task Tracker",
 		url: "https://reacttasktracker.com",
 		description:
-			"A task tracking app that uses local storage to store tasks. This project is my first attempt at using react dnd kit and as such the drag and drop is still under construction. You can still use it to create and manage your tasks with complete CRUD operations! I'm hoping to release this as a completely free, open-source, app that everyone can use and contribute to! ",
+			"A task tracking app that uses local storage to store tasks. You can use it to create and manage your tasks with complete CRUD operations! I'm hoping to release this as a completely free, open-source, app that everyone can use and contribute to! ",
 		image: "reacttasktracker.png",
 		note: "This project is still in progresss",
 		containInWhite: true,
@@ -39,7 +39,7 @@ const portfolioItems: PortfolioItem[] = [
 		title: "Reactedex",
 		url: "https://reactedex.com/",
 		description:
-			"A Pokédex built on React using the PokeApi. This allows you to search through the first four generations of Pokémon (the only ones that matter lets be real), and build your party of up to 5 Pokémon. Your party is stored in local storage",
+			"A Pokédex built on React using the PokéAPI. This allows you to search through the first four generations of Pokémon (the only ones that matter lets be real), and build your party of up to 5 Pokémon. Your party is stored in local storage",
 		image: "reactedex.png",
 		note: "This is a desktop only app",
 	},
@@ -47,14 +47,14 @@ const portfolioItems: PortfolioItem[] = [
 		title: "Wheel-Tech By Cars",
 		url: "https://wheeltechbycars.com/",
 		description:
-			"My dad needed a landing page for his wheel refinishing business. This is a simple HTML/CSS site with a dash of customization and JS, I was happy to create something like this for my dad's business and would love to help you create one, as complex as you want! Check it out!",
+			"My dad needed a landing page for his wheel refinishing business. This is a simple HTML/CSS site with a dash of customization and JS, I was happy to create something like this for my dad's business and would love to help you create one, as simple or complex as you want! Check it out!",
 		image: "wheeltechbycars.png",
 	},
 	{
 		title: "Red River AMBUCS",
 		url: "https://redriverambucs.org",
 		description:
-			"I was contacted by the Red River chapter of the national AMBUCS organization to make a site to help get word out about their amazing work and service. They aim to provide accessible bikes to everyone regardless of ability. This is has been a great volunteer project!",
+			"I was contacted by the Red River chapter of the national AMBUCS organization to make a site to help get word out about their amazing work and service. They aim to provide accessible bikes to everyone regardless of ability. This was a great volunteer project, and I was honored to help with such a noble cause.",
 		image: "redriverambucs.png",
 	},
 ];
