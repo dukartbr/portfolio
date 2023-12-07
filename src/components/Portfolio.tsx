@@ -90,7 +90,7 @@ export function Portfolio() {
 												{title}
 											</Text>
 											<Spacer />
-											{isExpanded ? <FaAngleDown /> : <FaAngleUp />}
+											{isExpanded ? <FaAngleUp /> : <FaAngleDown />}
 										</Flex>
 									</AccordionButton>
 									<AccordionPanel pb={4}>
