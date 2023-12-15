@@ -1,3 +1,4 @@
+// import { useEffect, useState } from "react";
 import { Box, Flex, Text } from "@chakra-ui/react";
 
 interface CodeLine {
@@ -113,3 +114,31 @@ export function Tech() {
 		</Flex>
 	);
 }
+
+// function Typewriter({ code, color, margin }: CodeLine) {
+// 	const [typedName, setTypedName] = useState("");
+
+// 	function typeName(name: string) {
+// 		const nameToArr = name.split("");
+// 		const typedName: string[] = [];
+// 		const int = setInterval(() => {
+// 			typedName.push(nameToArr[0]);
+// 			nameToArr.shift();
+// 			setTypedName(typedName.join(""));
+// 			if (nameToArr.length === 0) {
+// 				clearInterval(int);
+// 			}
+// 		}, 25);
+// 		return nameToArr;
+// 	}
+
+// 	useEffect(() => {
+// 		typeName(code);
+// 	}, [code]);
+
+// 	return (
+// 		<Text key={code} color={`${color}.300`} ml={margin} noOfLines={1}>
+// 			{typedName}
+// 		</Text>
+// 	);
+// }

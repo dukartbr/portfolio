@@ -32,7 +32,6 @@ const portfolioItems: PortfolioItem[] = [
 		description:
 			"A task tracking app that uses local storage to store tasks. You can use it to create and manage your tasks with complete CRUD operations! I'm hoping to release this as a completely free, open-source, app that everyone can use and contribute to! ",
 		image: "reacttasktracker.png",
-		note: "This project is still in progresss",
 		containInWhite: true,
 	},
 	{
