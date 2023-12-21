@@ -26,7 +26,7 @@ export function Header() {
 						Brady Dukart
 					</Text>
 					<Text fontSize="md" fontStyle="italic">
-						React Software Engineer II
+						Full Stack Engineer
 					</Text>
 				</Box>
 				<Spacer />
