@@ -54,7 +54,8 @@ function ContactModal({
         <ModalCloseButton />
         <ModalBody>
           <Text>
-            You can check out my work here or reach me at{" "}
+            You can check out my work{" "}
+            <Link href="https://github.com/dukartbr">here</Link> or reach me at{" "}
             <Link href="mailto:dukartbrady@gmail.com">
               dukartbrady@gmail.com
             </Link>
